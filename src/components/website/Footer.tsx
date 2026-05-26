@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="site-container flex flex-col md:flex-row items-center md:justify-center gap-4">
         {/* Left section - copyright */}
         <p className="text-sm font-medium text-center md:text-left text-white/90">
-          © {new Date().getFullYear()} RentFlow360. All rights reserved.
+          © {new Date().getFullYear()} Abrahomereality. All rights reserved.
         </p>
 
         {/* Center section - navigation links */}

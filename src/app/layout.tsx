@@ -24,7 +24,7 @@ const sen = Sen({
 });
 
 export const metadata: Metadata = {
-  title: "RentFlow360 - Property Management",
+  title: "ABRA HOME REALTY",
   description: "Transform how you manage properties with our all-in-one platform",
   icons: {
     icon: [

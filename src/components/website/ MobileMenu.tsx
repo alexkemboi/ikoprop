@@ -9,7 +9,7 @@ import {
 } from "../ui/drawer";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
-import Logo from "@/assets/rf_logo.jpeg";
+import Logo from "@/assets/rf_logo.png";
 import Link from "next/link";
 
 interface MobileMenuProps {
@@ -40,14 +40,14 @@ export const MobileMenu = ({
                     <div className="flex items-center space-x-3">
                         <Image
                             src={Logo}
-                            alt="RentFlow360"
+                            alt="abrahomereality"
                             width={32}
                             height={32}
                             className="object-contain mix-blend-multiply"
                         />
                         <div>
                             <DrawerTitle className="font-bold text-lg text-slate-900">
-                                RentFlow360
+                                abrahomereality
                             </DrawerTitle>
                         </div>
                     </div>

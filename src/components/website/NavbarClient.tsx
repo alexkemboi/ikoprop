@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Button } from "../ui/button";
 import { Bell, ChevronDown } from "lucide-react";
 import Image from "next/image";
-import Logo from "@/assets/rf_logo.jpeg";
+import Logo from "@/assets/rf_logo.png";
 import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter, usePathname } from "next/navigation";
@@ -90,7 +90,7 @@ export const NavbarClient = ({ navLinks }: NavbarClientProps) => {
             <div className="relative w-20 h-20 sm:w-24 sm:h-24 transition-all duration-500 group-hover:scale-105">
               <Image
                 src={Logo}
-                alt="RentFlow360"
+                alt="abrahomereality"
                 fill
                 className="object-contain mix-blend-multiply"
                 priority

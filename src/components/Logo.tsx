@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '@/assets/rf_logo.jpeg';
+import logo from '@/assets/rf_logo.png';
 import Link from 'next/link';
 
 type LogoProps = {
@@ -15,7 +15,7 @@ export const Logo = ({ className }: LogoProps) => {
                     <div className={`${sizeClass} relative`}>
                         <Image
                             src={logo}
-                            alt="RentFlow360 Logo"
+                            alt="abrahomereality Logo"
                             fill
                             className="object-contain brightness-110 mix-blend-multiply"
                             priority

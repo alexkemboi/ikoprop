@@ -91,7 +91,7 @@ export default function Contact({ companyInfo, cta }: ContactProps) {
                 </div>
                 <div>
                   <p className="font-bold text-lg mb-1 text-[#003b73]">{companyInfo?.contactEmailLabel || "Email Us"}</p>
-                  <p className="text-neutral-500">{companyInfo?.contactEmail || "info@rentflow360.com"}</p>
+                  <p className="text-neutral-500">{companyInfo?.contactEmail || "info@abrahomereality.com"}</p>
                 </div>
               </div>
 
@@ -101,7 +101,7 @@ export default function Contact({ companyInfo, cta }: ContactProps) {
                 </div>
                 <div>
                   <p className="font-bold text-lg mb-1 text-[#003b73]">{companyInfo?.contactPhoneLabel || "Call Us"}</p>
-                  <p className="text-neutral-500">{companyInfo?.contactPhone || "+1 (425) 633-5001"}</p>
+                  <p className="text-neutral-500">{companyInfo?.contactPhone || "+254 728 922266"}</p>
                 </div>
               </div>
 
@@ -199,7 +199,7 @@ export default function Contact({ companyInfo, cta }: ContactProps) {
               </button>
 
               <p className="text-[12px] text-neutral-400 text-center mt-2">
-                Messages are sent to <span className="text-neutral-500 font-semibold">info@rentflow360.com</span>
+                Messages are sent to <span className="text-neutral-500 font-semibold">info@abrahomereality.com</span>
               </p>
             </form>
           </div>

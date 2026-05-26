@@ -29,7 +29,7 @@ export default function WhatMakes() {
 
         <div className="relative z-10 space-y-6 max-w-4xl mx-auto">
           <p className="text-lg lg:text-xl text-[#151b1f]/80 leading-relaxed mb-6">
-            At <span className="text-[#003b73] font-bold">RentFlow360</span>,
+            At <span className="text-[#003b73] font-bold">Abrahomereality</span>,
             we offer a comprehensive range of real estate services, from property
             management and tenant placement to investment advisory and digital listings.
           </p>

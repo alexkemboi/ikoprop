@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import Image from 'next/image';
 import heroCityscape from "@/assets/hero-cityscape.jpg";
-
+import image from "../../../public/eldoret.jpg"
 interface AuthLayoutProps {
     children: ReactNode;
     mode?: 'login' | 'register';
@@ -9,8 +9,8 @@ interface AuthLayoutProps {
 
 export default function AuthLayout({ children, mode = 'login' }: AuthLayoutProps) {
     const headline = mode === 'login'
-        ? "Welcome to RentFlow360"
-        : "Join RentFlow360 Today";
+        ? "Welcome to Abrahomereality"
+        : "Join Abrahomereality Today";
 
     const subheading = "Start streamlining your property management Today!"
 
@@ -20,7 +20,7 @@ export default function AuthLayout({ children, mode = 'login' }: AuthLayoutProps
             {/* Background Image with Lighter Overlay */}
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/bg-image.jpeg"
+                    src={image}
                     alt="Modern city skyline"
                     fill
                     className="object-cover"
